@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+<TextView
+    android:id="@+id/textviewId"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="20sp"
+    android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/increaseButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increase Score"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/decreaseButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrease Score"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+    <Button
+        android:id="@+id/lastscoreId"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="load last score"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:textSize="15dp"/>
+</LinearLayout>
